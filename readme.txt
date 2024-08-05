@@ -1,0 +1,3 @@
+import yfinance
+import requests
+import beautifulsoup4
