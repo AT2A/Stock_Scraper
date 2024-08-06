@@ -1,5 +1,17 @@
 import yfinance as yf
 import requests 
 from bs4 import BeautifulSoup
-print("hello world")
-print("computer test")
+ticker = input("Ticker:")
+tick = yf.Ticker(ticker)
+
+info = tick.news
+with open(f'{ticker}.txt',  'w') as f:
+    for i in info:
+ 
+       
+       f.write(f"Title: {i.get("title")}\n")
+       f.write(f"Publisher: {i.get("publisher")}\n")
+       f.write(f"Related Tickers: {i.get("relatedTickers")}\n")
+       f.write(f"Link: {i.get("link")}\n")
+       f.write("\n")
+  
