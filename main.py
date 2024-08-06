@@ -1,8 +1,23 @@
+from flask import Flask,request, render_template
 import yfinance as yf
-import requests 
 from bs4 import BeautifulSoup
-ticker = input("Ticker:")
+
+app = Flask(__name__)
+@app.route('/')
+def my_form():
+    return render_template('index.html')
+
+@app.route('/', methods=['POST'])
+def my_form_post():
+  
+    text = request.form['text']
+    processed_text = text.upper()
+    return processed_text
+
+
+ticker = my_form_post()
 tick = yf.Ticker(ticker)
+
 
 info = tick.news
 with open(f'{ticker}.txt',  'w') as f:
