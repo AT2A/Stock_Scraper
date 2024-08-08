@@ -38,7 +38,7 @@ def stockAnalysis(ticker):
     analystList[index].upside = x.find('td', class_ = 'desktop-only text-right text-smaller svelte-1c46ly0').text
     analystList[index].date = x.find('td', class_ = 'whitespace-nowrap align-middle text-smaller font-semibold svelte-1c46ly0').text
 
-
+  return analystList
 #------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -57,19 +57,26 @@ def stock_info(ticker, exchange):
     "divYield":infoList[6].text,
     "exchange":infoList[7].text
     }
-  print(stockInfo)
+  return stock_info
 
 #News on stock through yfinance
+
+class news:
+  def __init__ (self):
+    self.title = ''
+    self.publisher = ''
+    self.relatedTickers = ''
+    self.link = ''
+    
 def news_org(ticker):
     
     tick = yf.Ticker(ticker)
     info = tick.news
-    with open(f'{ticker}.txt',  'w') as f:
-        for i in info:
- 
-       
-          f.write(f"Title: {i.get("title")}\n")
-          f.write(f"Publisher: {i.get("publisher")}\n")
-          f.write(f"Related Tickers: {i.get("relatedTickers")}\n")
-          f.write(f"Link: {i.get("link")}\n")
-          f.write("\n")
+    newsList = []
+   
+    for index,article in enumerate(info):
+      newsList[index].title = article.get("title")
+      newsList[index].publisher = article.get("punlisher")
+      newsList[index].relatedTickers = article.get("relatedTickers")
+      newsList[index].link = article.get("link") 
+    return newsList

@@ -1,10 +1,9 @@
 import main
 import tkinter as tk
 root=tk.Tk()
-root.geometry("600x400")
+root.geometry("500x800")
 stock_var=tk.StringVar()
 exchange_var = tk.StringVar()
-
 
 def submit():
     name=stock_var.get()
@@ -28,6 +27,7 @@ exchange_label.grid(row=1,column=0)
 exchange_entry.grid(row=1,column=1)
 
 sub_btn.grid(row=2,column=1)
+
 
 
 root.mainloop()
