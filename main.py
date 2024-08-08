@@ -9,6 +9,7 @@ import requests
 
 #Stock Analysis Website ----------------------------------------------------------------------------------------------
 #Class of the info of each stock analyst
+
 class analyst:
   
   def _init_(self):
@@ -19,22 +20,23 @@ class analyst:
     self.priceTarget = ''
     self.upside = ''
     self.date = ''
-    
-stockAnalysisHTML = requests.get('https://stockanalysis.com/stocks/aapl/ratings/').text
-anaylsisSoup = BeautifulSoup(stockAnalysisHTML, 'html.parser')
-table = anaylsisSoup.find('tbody' , class_ = "svelte-1c46ly0")
-allAnalyst = table.find_all('tr')
-#List that stores each of the analyst objects and the loop, that loops through the websites table and extracts the data
-analystList = []
-for index,x in enumerate(allAnalyst):
-  analystList.append(analyst())
-  analystList[index].name = x.find('div', class_ = 'analyst-name svelte-1c46ly0').text
-  analystList[index].firm = x.find('td', class_ = 'desktop-only max-w-[120px] text-smaller svelte-1c46ly0').text
-  analystList[index].rating = x.find('td', class_ = 'desktop-only text-sm svelte-1c46ly0').span.text
-  analystList[index].action = x.find('td', class_ = 'desktop-only text-smaller svelte-1c46ly0').text
-  analystList[index].priceTarget = x.find('td', class_ = 'desktop-only min-w-[80px] text-smaller svelte-1c46ly0').text
-  analystList[index].upside = x.find('td', class_ = 'desktop-only text-right text-smaller svelte-1c46ly0').text
-  analystList[index].date = x.find('td', class_ = 'whitespace-nowrap align-middle text-smaller font-semibold svelte-1c46ly0').text
+def stockAnalysis(ticker):  
+  stockAnalysisHTML = requests.get(f'https://stockanalysis.com/stocks/{ticker}/ratings/').text
+  anaylsisSoup = BeautifulSoup(stockAnalysisHTML, 'html.parser')
+  table = anaylsisSoup.find('tbody' , class_ = "svelte-1c46ly0")
+  allAnalyst = table.find_all('tr')
+  #List that stores each of the analyst objects and the loop, that loops through the websites table and extracts the data
+  analystList = []
+  
+  for index,x in enumerate(allAnalyst):
+    analystList.append(analyst())
+    analystList[index].name = x.find('div', class_ = 'analyst-name svelte-1c46ly0').text
+    analystList[index].firm = x.find('td', class_ = 'desktop-only max-w-[120px] text-smaller svelte-1c46ly0').text
+    analystList[index].rating = x.find('td', class_ = 'desktop-only text-sm svelte-1c46ly0').span.text
+    analystList[index].action = x.find('td', class_ = 'desktop-only text-smaller svelte-1c46ly0').text
+    analystList[index].priceTarget = x.find('td', class_ = 'desktop-only min-w-[80px] text-smaller svelte-1c46ly0').text
+    analystList[index].upside = x.find('td', class_ = 'desktop-only text-right text-smaller svelte-1c46ly0').text
+    analystList[index].date = x.find('td', class_ = 'whitespace-nowrap align-middle text-smaller font-semibold svelte-1c46ly0').text
 
 
 #------------------------------------------------------------------------------------------------------------------------------------------

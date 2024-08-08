@@ -1,8 +1,4 @@
 import main
-# Program to make a simple 
-# login screen 
-
-
 import tkinter as tk
 root=tk.Tk()
 root.geometry("600x400")
