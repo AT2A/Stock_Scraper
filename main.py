@@ -75,8 +75,12 @@ def news_org(ticker):
     newsList = []
    
     for index,article in enumerate(info):
+      
+      newsList.append(news())
       newsList[index].title = article.get("title")
       newsList[index].publisher = article.get("punlisher")
       newsList[index].relatedTickers = article.get("relatedTickers")
       newsList[index].link = article.get("link") 
     return newsList
+
+
