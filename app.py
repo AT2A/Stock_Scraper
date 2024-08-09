@@ -23,7 +23,7 @@ Exchange: {info.get("exchange")}
 
 Analyst Ratings\n""")
         for index,x in enumerate(analystList):
-            f.write(f"""{x.date}   {x.name}  {x.firm}  {x.rating}   {x.action}   {x.priceTarget}  \n\n""")
+            f.write(f"""{x.date}   {x.name}  {x.firm}  {x.rating}   {x.action}  {x.upside} {x.priceTarget}  \n\n""")
         
         f.write("News\n")      
         for x in newsList:
