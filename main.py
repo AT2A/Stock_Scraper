@@ -57,7 +57,7 @@ def stock_info(ticker, exchange):
     "divYield":infoList[6].text,
     "exchange":infoList[7].text
     }
-  return stock_info
+  return stockInfo
 
 #News on stock through yfinance
 
