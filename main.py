@@ -84,6 +84,8 @@ def news_org(ticker):
     return newsList
 
 test = requests.get('https://finance.yahoo.com/news/spotify-epic-games-call-apples-185919125.html').text
-soup = BeautifulSoup(test, 'html.parser')
-text = soup.find_all('div', class_ = 'caas-body')
-print(text.p.text)
+soup = BeautifulSoup(test, 'lxml')
+text = soup.find_all('div' , class_ = "caas-body")
+
+for i,x in enumerate(text):
+  print(x.text)
