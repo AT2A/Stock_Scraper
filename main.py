@@ -83,4 +83,7 @@ def news_org(ticker):
       newsList[index].link = article.get("link") 
     return newsList
 
-
+test = requests.get('https://finance.yahoo.com/news/spotify-epic-games-call-apples-185919125.html').text
+soup = BeautifulSoup(test, 'html.parser')
+text = soup.find_all('div', class_ = 'caas-body')
+print(text.p.text)
