@@ -87,5 +87,15 @@ test = requests.get('https://finance.yahoo.com/news/spotify-epic-games-call-appl
 soup = BeautifulSoup(test, 'lxml')
 text = soup.find_all('div' , class_ = "caas-body")
 
-for i,x in enumerate(text):
-  print(x.text)
+#for i,x in enumerate(text):
+#  print(x.text)
+
+import google.generativeai as genai
+import os
+
+genai.configure(api_key='AIzaSyCsnQSkEq_n5PNahgRzoE7_4H24OVqYT0Y')
+
+model = genai.GenerativeModel('gemini-1.5-flash')
+
+response = model.generate_content("how can i feed you a list of news articles for you to summarize")
+print(response.text)
