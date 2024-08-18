@@ -47,6 +47,7 @@ def stock_info(ticker, exchange):
   htlm_texts = requests.get(f'https://www.google.com/finance/quote/{ticker}:{exchange}').text
   soup = BeautifulSoup(htlm_texts, 'html.parser')
   infoList = soup.find_all('div', class_ = 'P6K39c')
+  print(infoList[0])
   stockInfo = {
     "prevClose":infoList[0].text,
     "dayRange":infoList[1].text,
@@ -67,11 +68,13 @@ class news:
     self.publisher = ''
     self.relatedTickers = ''
     self.link = ''
+    self.text = ''
     
 def news_org(ticker):
     
     tick = yf.Ticker(ticker)
     info = tick.news
+    
     newsList = []
    
     for index,article in enumerate(info):
@@ -80,22 +83,14 @@ def news_org(ticker):
       newsList[index].title = article.get("title")
       newsList[index].publisher = article.get("punlisher")
       newsList[index].relatedTickers = article.get("relatedTickers")
-      newsList[index].link = article.get("link") 
+      newsList[index].link = article.get("link")
+      temp = requests.get(newsList[index].link).text
+      tempSoup = BeautifulSoup(temp, 'lxml')
+      text = tempSoup.find_all('div' , class_ = "caas-body")
+      string = ''
+      for x in text:
+        string += x.text
+        
+      newsList[index].text = string
+      
     return newsList
-
-test = requests.get('https://finance.yahoo.com/news/spotify-epic-games-call-apples-185919125.html').text
-soup = BeautifulSoup(test, 'lxml')
-text = soup.find_all('div' , class_ = "caas-body")
-
-#for i,x in enumerate(text):
-#  print(x.text)
-
-import google.generativeai as genai
-import os
-
-genai.configure(api_key='AIzaSyCsnQSkEq_n5PNahgRzoE7_4H24OVqYT0Y')
-
-model = genai.GenerativeModel('gemini-1.5-flash')
-
-response = model.generate_content("how can i feed you a list of news articles for you to summarize")
-print(response.text)

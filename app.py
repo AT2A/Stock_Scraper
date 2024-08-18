@@ -24,7 +24,7 @@ Exchange: {info.get("exchange")}
 Analyst Ratings\n""")
         for index,x in enumerate(analystList):
             f.write(f"""{x.date}   {x.name}  {x.firm}  {x.rating}   {x.action}  {x.upside} {x.priceTarget}  \n\n""")
-        
+        print(newsList)
         f.write("News\n")      
         for x in newsList:
             f.write(f"""Title: {x.title}
@@ -54,7 +54,7 @@ exchange_label.grid(row=1,column=0)
 exchange_entry.grid(row=1,column=1)
 
 sub_btn.grid(row=2,column=1)
-hello = "hello"
+
 
 
 
