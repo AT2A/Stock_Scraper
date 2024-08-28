@@ -47,7 +47,7 @@ def stock_info(ticker, exchange):
   htlm_texts = requests.get(f'https://www.google.com/finance/quote/{ticker}:{exchange}').text
   soup = BeautifulSoup(htlm_texts, 'html.parser')
   infoList = soup.find_all('div', class_ = 'P6K39c')
-  print(infoList[0])
+  
   stockInfo = {
     "prevClose":infoList[0].text,
     "dayRange":infoList[1].text,

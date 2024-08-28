@@ -1,12 +1,13 @@
 import main
 import tkinter as tk
+import gemminiSummary
 root=tk.Tk()
 root.geometry("500x800")
 stock_var=tk.StringVar()
 exchange_var = tk.StringVar()
 
 def toText(name, exchange):
-    print("works")
+    
     info = main.stock_info(name, exchange)
     analystList = main.stockAnalysis(name)
     newsList = main.news_org(name)
@@ -24,14 +25,18 @@ Exchange: {info.get("exchange")}
 Analyst Ratings\n""")
         for index,x in enumerate(analystList):
             f.write(f"""{x.date}   {x.name}  {x.firm}  {x.rating}   {x.action}  {x.upside} {x.priceTarget}  \n\n""")
-        print(newsList)
+        
         f.write("News\n")      
         for x in newsList:
             f.write(f"""Title: {x.title}
 Publisher: {x.publisher}
 Related Tickers: {x.relatedTickers}
-Link: {x.link}\n\n""")
+Link: {x.link}
+Test: {x.text}
+\n\n
+""")
 
+    gemminiSummary.summarize(name)
 
 def submit():
     name=stock_var.get()

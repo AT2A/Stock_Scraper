@@ -1,0 +1,109 @@
+Stock Name: aapl
+
+Previous Close: $228.03                
+Day Range: $228.03
+Year Range: $164.08 - $237.23            
+Market Cap: 3.46T USD  
+Average Volume: 50.77M   
+P/E Ratio: 34.64  
+Dividend Yield: 0.44%  
+Exchange: NASDAQ                 
+
+Analyst Ratings
+Aug 27, 2024    Atif Malik  Citigroup   Strong Buy   Maintains  +12.06% $255  
+
+Aug 27, 2024    Matt Farrell  Piper Sandler   Hold   Reiterates  -1.13% $225  
+
+Aug 27, 2024    Erik Woodring  Morgan Stanley   Buy   Reiterates  +19.97% $273  
+
+Aug 27, 2024    Amit Daryanani  Evercore ISI Group   Buy   Maintains  +9.86% $250  
+
+Aug 27, 2024    Wamsi Mohan  B of A Securities   Strong Buy   Reiterates  +12.50% $256  
+
+Aug 27, 2024    Benjamin Reitzes  Melius Research   Strong Buy   Reiterates  +16.45% $265  
+
+Aug 19, 2024    Craig Moffett  MoffettNathanson   Hold   Initiates  -7.28% $211  
+
+Aug 6, 2024    Erik Woodring  Morgan Stanley   Buy   Maintains  +19.97% $273  
+
+Aug 5, 2024    Laura Martin  Needham   Strong Buy   Reiterates  +14.25% $260  
+
+Aug 2, 2024    Tom Forte  Maxim Group   Hold   Maintains  -10.79% $195 → $203  
+
+Aug 2, 2024    Barton Crockett  Rosenblatt   Strong Buy   Maintains  +14.69% $260 → $261  
+
+Aug 2, 2024    Daniel Ives  Wedbush   Buy   Maintains  +25.24% $275 → $285  
+
+Aug 2, 2024    Rod Hall  Goldman Sachs   Strong Buy   Maintains  n/a n/a  
+
+Aug 2, 2024    Atif Malik  Citigroup   Strong Buy   Maintains  +12.06% $210 → $255  
+
+Aug 2, 2024    Tim Long  Barclays   Sell   Maintains  -18.27% $187 → $186  
+
+Jul 29, 2024    Krish Sankar  TD Cowen   Strong Buy   Maintains  +9.86% $220 → $250  
+
+News
+Title: Magnificent Seven Stocks: Nvidia Stock Sells Off Ahead Of Earnings
+Publisher: None
+Related Tickers: ['NVDA', 'AAPL', 'TSLA', 'META', 'MSFT']
+Link: https://finance.yahoo.com/m/4205eaa9-f620-3a0b-a81a-0e82c7c9fd0b/magnificent-seven-stocks%3A.html
+Test: 
+
+
+
+Title: Apple to cut 100 jobs in fourth round of 2024 layoffs: BBG
+Publisher: None
+Related Tickers: ['AAPL']
+Link: https://finance.yahoo.com/video/apple-cut-100-jobs-fourth-160432363.html
+Test: 
+
+
+
+Title: Update: Tigress Financial Raises Apple's PT to $295 From $245 Due to 'Expanding Ecosystem', Maintains Strong Buy Rating
+Publisher: None
+Related Tickers: ['AAPL']
+Link: https://finance.yahoo.com/news/tigress-financial-raises-apple-apos-155221944.html
+Test: Update: Tigress Financial Raises Apple's PT to $295 From $245 Due to 'Expanding Ecosystem', Maintains Strong Buy Rating
+
+
+
+Title: Retail Reports, a Rundown on the State of the Podcast Industry, and 2 Stocks Worth Watching
+Publisher: None
+Related Tickers: ['^GSPC', '^RUT', 'SPOT', 'CAVA', 'CMG', 'AAPL']
+Link: https://finance.yahoo.com/m/ea5afd45-55e4-3edf-ae9c-cec28faf219b/retail-reports%2C-a-rundown-on.html
+Test: 
+
+
+
+Title: Top Midday Stories: Super Micro Computer to File Form 10-K Late; Berkshire Hathaway Eclipses $1 Trillion Market Cap
+Publisher: None
+Related Tickers: ['SMCI', 'AAPL']
+Link: https://finance.yahoo.com/news/top-midday-stories-super-micro-154155425.html
+Test: Top Midday Stories: Super Micro Computer to File Form 10-K Late; Berkshire Hathaway Eclipses $1 Trillion Market Cap
+
+
+
+Title: Warren Buffett's Berkshire joins the $1 trillion club
+Publisher: None
+Related Tickers: ['AAPL']
+Link: https://finance.yahoo.com/news/warren-buffetts-berkshire-joins-1-154059795.html
+Test: Investing.com -- Warren Buffett's Berkshire Hathaway (NYSE:BRKa) reached a historic milestone on Wednesday, becoming the first non-technology company in the U.S. to achieve a $1 trillion market capitalization.The Omaha-based conglomerate's stock has surged over 30% in 2024, significantly outpacing the S&P 500. This impressive feat comes just days before Buffett, often referred to as the 'Oracle (NYSE:ORCL) of Omaha,' celebrates his 94th birthday.On Wednesday, Berkshire's shares climbed to an all-time high, pushing the company's market value past the $1 trillion mark.Unlike the other members of the trillion-dollar club—Apple, Nvidia (NASDAQ:NVDA), Microsoft (NASDAQ:MSFT), Alphabet (NASDAQ:GOOGL), Amazon (NASDAQ:AMZN), and Meta—Berkshire Hathaway is distinguished by its focus on traditional industries.The company owns a diverse array of businesses. However, Berkshire's significant investment in Apple (NASDAQ:AAPL) has also been a significant contributor to its recent growth.Buffett took control of Berkshire in the 1960s and has since transformed it into a vast empire with interests in insurance, railroads, retail, and energy. The company is renowned for its strong balance sheet and substantial cash reserves.Recently, Buffett has adopted a more cautious approach, selling off a large amount of stock—including half of Berkshire's Apple holdings—and amassing a record $277 billion in cash by the end of June.On Wednesday, it was revealed that over the past few days, Berkshire has sold more shares of Bank of America as the company continues to trim its stake in the U.S. lender.According to regulatory filings, Berkshire has sold around $5.4 billion worth of Bank of America shares sales since mid-July. According to a regulatory filing on Tuesday, between August 23 and 27, the company is said to have sold roughly 24.7 million shares of the lender.Related ArticlesWarren Buffett's Berkshire joins the $1 trillion clubPoland stocks lower at close of trade; WIG30 down 0.58%US SEC requires monthly reports on investment fund holdingsView comments
+
+
+
+Title: Apple to Cut Jobs in Services Unit, Report Says. What’s Behind the Move.
+Publisher: None
+Related Tickers: ['AAPL']
+Link: https://finance.yahoo.com/m/f3e88b82-8c85-33c5-ab6b-bd866d24c6f7/apple-to-cut-jobs-in-services.html
+Test: 
+
+
+
+Title: Warren Buffett Isn’t Alone — Some Other Top Billionaires are Also Dumping Apple (AAPL)
+Publisher: None
+Related Tickers: ['AAPL']
+Link: https://finance.yahoo.com/news/warren-buffett-isn-t-alone-145518671.html
+Test: We recently published a list of Hedge Funds are Buying and Selling These 10 AI Stocks. Since Apple Inc (NASDAQ:AAPL) ranks 5th on the list, it deserves a deeper look.The AI-led rally in the stock market is expected to ripple through other sectors and smaller tech companies, but analysts believe for now large-cap companies are still the key focus of money managers. Morgan Stanley in its August key themes report said that while small-cap stocks rebounded on rate-cut hopes, the window for their outperformance is “too narrow.”“Historically small cap outperformance depended primarily on economic growth acceleration. Greater risk exposure to a “higher-for-longer” rate environment has added inverse rate correlation to the mix. While periods of growth acceleration with lower rates are plausible (e.g. end-2023), we see this combination as relatively unlikely in the current inflation environment. The recent decline in interest rates was a tailwind to small cap stocks, but softer economic data likely limits the durability of this trade,” the firm said.The latest earnings season showed that ROI on the huge AI spending by major companies is small in the short term, but long-term gains seem promising. Many companies have already started seeing monetization on their AI investments.  Goldman Sachs analysts Joseph Briggs, Kash Rangan, and Eric Sheridan said in a June report titled GEN AI: TOO MUCH SPEND, TOO LITTLE BENEFIT? that they remain more optimistic about AI’s economic potential even if we don’t see immediate benefits for now.Hedge funds are one step ahead of average individual investors due to the sheer scale of resources and capital they have. That’s why it’s always interesting to see which stocks they are buying and selling. In this article we take a look at the 10 most important AI stocks which were on the radar of elite money managers based on their second-quarter filings. Why are we interested in the stocks that hedge funds pile into? The reason is simple: our research has shown that we can outperform the market by imitating the top stock picks of the best hedge funds. Our quarterly newsletter’s strategy selects 14 small-cap and large-cap stocks every quarter and has returned 275% since May 2014, beating its benchmark by 150 percentage points (see more details here).Are Hedge Funds Buying and Selling Apple Inc. (NASDAQ:AAPL) AI Stock?Pixabay/Public DomainApple Inc (NASDAQ:AAPL)Total Number of Hedge Fund Investors as of the End of Q2: 184Total Number of Hedge Fund Investors as of the End of Q1: 150Perhaps the biggest news around Apple Inc (NASDAQ:AAPL) related to the latest 13F filings from hedge funds was Warren Buffett’s Berkshire cutting its stake in the company by 50%. Who else is jumping the Apple ship? Billionaire Stanley Druckenmiller’s Duquesne Family Office cut its stakes in Apple (NASDAQ:AAPL) to 24,000 shares during Q2 from about 115,000 shares. Billionaire Ray Dalio’s fund reduced its position in the company to 469K shares from 1.84 million shares. Billionaire DE Shaw’s fund cut its Apple stake by 33%. Billionaire Israel Englander, on the other hand, increased his stake in the company by 68% via Millennium Management.Apple Inc (NASDAQ:AAPL) has a new bull: billionaire Dan Loeb. The founder of the New York-based hedge fund Third Point said in a latest letter to investors that Apple has a significant upside potential due to AI.“We believe Apple Inc (NASDAQ:AAPL) recently announced ‘Apple Intelligence’ suite of AI-enabled smartphone features – the most compelling of which is a next-generation virtual assistant – will start driving meaningful new demand within Apple’s installed base, resulting in accelerating revenue growth on two fronts. First,  iPhone revenue is going to see a marked improvement because Apple Intelligence features will not be backwards-compatible with existing iPhone models, creating the conditions for a forced upgrade cycle. Second, Apple’s App Store is likely to become the primary distribution platform for most new consumer focused AI apps such as OpenAI’s ChatGPT (with which Apple Inc (NASDAQ:AAPL) recently announced a partnership). We expect Apple’s claim on the future economics of these apps to be substantial as it exploits its distribution advantage.”Loeb reiterated the bull case that many other Wall Street analysts have made. This case assumes that millions of people will upgrade their iPhones because they’d want to use AI-powered new models of Apple Inc (NASDAQ:AAPL) flagship device.However, the assumption that we will see a huge upgrade cycle of iPhone just because of AI is big and comes with a lot of risks. Apple Inc (NASDAQ:AAPL) trades at a forward PE multiple of around 35x, well above its 5-year average of nearly 27x. Its expected EPS forward long-term growth rate of 10.39% does not justify its valuation, especially with the iPhone upgrade cycle assumption. Adjusting for this growth results in a forward PEG ratio of 3.33, significantly higher than its 5-year average of 2.38.Third Point Management stated the following regarding Apple Inc. (NASDAQ:AAPL) in its Q2 2024 investor letter:In April, we took a position in Apple, the world’s leading consumer technology franchise, with an ecosystem of 2.2 billion devices spanning a broad array of form factors including smartphones, tablets, laptops, watches, earphones, and smart home devices. Apple excels in most of these device categories, with revenue share of 50-60% in several key markets.Despite Apple’s dominance as a business, its stock had become increasingly “under-owned” by institutional investors and its relative multiple had compressed toward a multi-year low. We believe that this was due to several years of stagnant earnings growth, exacerbated by more recent fears that Apple may turn out to be an AI loser. Our research led us to a different conclusion: we believe AI-related demand could drive a step change improvement in Apple’s revenue and earnings over the next few years…” (Click here to read the full text)Overall, Apple Inc (NASDAQ:AAPL) ranks 5th on Insider Monkey’s list titled Hedge Funds are Buying and Selling These 10 AI Stocks. While we acknowledge the Apple Inc (NASDAQ:AAPL), our conviction lies in the belief that AI stocks hold greater promise for delivering higher returns, and doing so within a shorter timeframe. If you are looking for an AI stock that is more promising than AAPL but that trades at less than 5 times its earnings, check out our report about the cheapest AI stock.READ NEXT: Analyst Sees a New $25 Billion “Opportunity” for NVIDIA and Jim Cramer is Recommending These Stocks.Disclosure: None. This article is originally published at Insider Monkey.View comments
+
+
+
