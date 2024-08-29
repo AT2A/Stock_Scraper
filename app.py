@@ -2,7 +2,7 @@ import main
 import tkinter as tk
 import gemminiSummary
 root=tk.Tk()
-root.geometry("500x800")
+root.geometry("300x100")
 stock_var=tk.StringVar()
 exchange_var = tk.StringVar()
 
