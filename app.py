@@ -11,7 +11,7 @@ def toText(name, exchange):
     info = main.stock_info(name, exchange)
     analystList = main.stockAnalysis(name)
     newsList = main.news_org(name)
-    with open(f'{name}.txt', 'w', encoding="utf-8") as f:
+    with open(f'stockTexts/{name}.txt', 'w', encoding="utf-8") as f:
         f.write(f"""Stock Name: {name}\n
 Previous Close: {info.get("prevClose")}                
 Day Range: {info.get("prevClose")}

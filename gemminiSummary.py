@@ -4,7 +4,7 @@ import os
 def summarize(name):
     genai.configure(api_key=os.environ["API_KEY"])
 
-    sample_file = genai.upload_file(path=f"{name}.txt",display_name="Gemini 1.5 PDF")
+    sample_file = genai.upload_file(path=f"stockTexts/{name}.txt",display_name="Gemini 1.5 PDF")
 
     print(f"Uploaded file '{sample_file.display_name}' as: {sample_file.uri}")
 
