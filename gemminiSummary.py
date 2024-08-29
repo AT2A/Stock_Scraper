@@ -16,7 +16,9 @@ def summarize(name):
     model = genai.GenerativeModel(model_name="gemini-1.5-flash")
 
     # Prompt the model with text and the previously uploaded image.
-    response = model.generate_content([sample_file, "The following text is the day info, anaylst ratings, and etc. of a stock, I want you to summarize the file and go to the urls and summarize the news articles."])
+    response = model.generate_content([sample_file, "Read the following file and give me a summary keep it different from the original and make it useful, give a more detailed summary on the news"])
 
-    print(response)
+    
+        
+    return response.text
     

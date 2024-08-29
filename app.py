@@ -35,8 +35,10 @@ Link: {x.link}
 Test: {x.text}
 \n\n
 """)
+        f.write(gemminiSummary.summarize(name))
+    
 
-    gemminiSummary.summarize(name)
+    
 
 def submit():
     name=stock_var.get()
